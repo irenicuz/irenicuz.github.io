@@ -21,12 +21,14 @@ export default {
                 {
                     index: 1,
                     title: "Hello World",
-                    content: "Hello everyone, this is my first ever blogpost."
+                    content: "Hello everyone, this is my first ever blogpost.",
+                    date: "5.1.2020"
                 },
                 {
                     index: 2,
                     title: "Website under construction",
-                    content: "The work on the website is going well, hopefully it will go live in a few weeks' time."
+                    content: "The work on the website is going well, hopefully I will able to add to on a consistent basis.",
+                    date: "5.1.2020"
                 }
             ]
         }
