@@ -27,7 +27,7 @@ export default {
                 {
                     index: 2,
                     title: "Website under construction",
-                    content: "The work on the website is going well, hopefully I will able to add to on a consistent basis.",
+                    content: "The work on the website is going well, hopefully I will able to add to it on a consistent basis.",
                     date: "5.1.2020"
                 }
             ]
