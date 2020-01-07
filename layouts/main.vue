@@ -47,7 +47,7 @@ main {
     max-width: 900px;
     margin-left: auto;
     margin-right: auto;
-    padding: 30px 0;
+    padding: 30px 10px;
 }
 
 h1, h2 {
@@ -73,6 +73,10 @@ a {
 
 img {
   max-width: 300px;
+
+  @media screen and (max-width: 700px){
+    max-width: 100%;
+  }
 }
 
 </style>

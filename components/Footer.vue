@@ -36,7 +36,7 @@
 
         ul {
             list-style: none;
-            padding: 20px 0;
+            padding: 10px;
             display: flex;
 
             li {
@@ -58,6 +58,42 @@
                     border-top-right-radius: 8px;
                     border-bottom-right-radius: 8px;
                 }
+            }
+
+            @media screen and (max-width: 700px){ 
+                flex-direction: column;
+
+                li {
+                    border-radius: 8px;
+                }
+            }
+        }
+
+        @media screen and (max-width: 700px){ 
+
+            nav {
+
+                width: 100%;
+
+                ul {
+                    flex-direction: column;
+
+                    li {
+                        border-radius: 8px;
+                        background-color: #f3f3f3;
+                        margin-bottom: 5px;
+
+                        a {
+                            width: 100%;
+                        }
+
+                        &:last-child {
+                            margin-bottom: 0;
+                        }
+                        
+                    }
+                }
+                
             }
         }
     }
