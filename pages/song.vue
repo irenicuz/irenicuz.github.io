@@ -10,6 +10,7 @@
 
     iframe {
         margin: 30px 0;
+        max-width: 100%;
     }
 
 </style>

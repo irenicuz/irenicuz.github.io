@@ -10,16 +10,22 @@
 
 <style lang="scss" scoped>
     .card {
-        max-width: 500px;
+        //max-width: 500px;
         display: flex;
+
         margin-bottom: 20px;
         .contents {
             padding: 20px;
+
+            h2 {
+                margin-bottom: 10px;
+            }
         }
 
         img {
-            max-width: 300px;
-            max-height: 150px;
+            //max-width: 300px;
+            //max-height: 150px;
+            width: 160px;
         }
     }
 </style>
